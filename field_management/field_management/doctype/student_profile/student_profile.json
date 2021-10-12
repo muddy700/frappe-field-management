@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ST.#####",
+ "creation": "2021-10-07 00:35:25.331809",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student",
+  "year_of_study",
+  "degree_program",
+  "department",
+  "academic_supervisor",
+  "reg_no",
+  "logbook_section",
+  "logbooks",
+  "report_section",
+  "report"
+ ],
+ "fields": [
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "year_of_study",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Year of Study",
+   "reqd": 1
+  },
+  {
+   "fieldname": "degree_program",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Degree Program",
+   "options": "Degree Program",
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department",
+   "read_only": 1
+  },
+  {
+   "fieldname": "academic_supervisor",
+   "fieldtype": "Link",
+   "label": "Academic Supervisor",
+   "options": "User"
+  },
+  {
+   "fieldname": "reg_no",
+   "fieldtype": "Data",
+   "label": "Reg No"
+  },
+  {
+   "fieldname": "logbooks",
+   "fieldtype": "Table",
+   "label": "Logbooks",
+   "options": "Logbook"
+  },
+  {
+   "fieldname": "report",
+   "fieldtype": "Table",
+   "label": "Report",
+   "options": "Field Report"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "logbook_section",
+   "fieldtype": "Section Break",
+   "hide_border": 1,
+   "label": "Logbooks"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "report_section",
+   "fieldtype": "Section Break",
+   "label": "Report"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-07 12:34:30.503068",
+ "modified_by": "Administrator",
+ "module": "Field Management",
+ "name": "Student Profile",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

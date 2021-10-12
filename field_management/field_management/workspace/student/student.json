@@ -1,0 +1,71 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Student Modules\",\"level\":2,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Field Posts\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Field Applications\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Logbooks\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Field Report\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Profile\",\"col\":4}}]",
+ "creation": "2021-10-07 01:19:54.894801",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "small-file",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 0,
+ "label": "Student",
+ "links": [],
+ "modified": "2021-10-07 09:35:35.952955",
+ "modified_by": "Administrator",
+ "module": "Field Management",
+ "name": "Student",
+ "owner": "Administrator",
+ "parent_page": "",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "public": 1,
+ "roles": [
+  {
+   "role": "Student"
+  }
+ ],
+ "sequence_id": 8,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Field Applications",
+   "link_to": "Field Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Field Posts",
+   "link_to": "Field Post",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Profile",
+   "link_to": "user-profile",
+   "type": "Page"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Logbooks",
+   "link_to": "Logbook",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Field Report",
+   "link_to": "Field Report",
+   "type": "DocType"
+  }
+ ],
+ "title": "Student"
+}

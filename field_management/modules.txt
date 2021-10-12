@@ -1,1 +1,6 @@
 Field Management
+Student Management
+Organization Management
+TempoMod
+Ranker Module
+Academic Supervisor

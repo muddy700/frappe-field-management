@@ -1,0 +1,60 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Academic Supervisor Modules\",\"level\":2,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Assigned Students\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Students Logbooks\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Students Field Reports\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Field Results\",\"col\":4}}]",
+ "creation": "2021-10-07 01:23:00.590264",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "edit",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 0,
+ "label": "Academic Supervisor",
+ "links": [],
+ "modified": "2021-10-11 16:41:35.080608",
+ "modified_by": "Administrator",
+ "module": "Field Management",
+ "name": "Academic Supervisor",
+ "owner": "Administrator",
+ "parent_page": "",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "public": 1,
+ "roles": [],
+ "sequence_id": 13,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Assigned Students",
+   "link_to": "Student Profile",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Students Logbooks",
+   "link_to": "Logbook",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Students Field Reports",
+   "link_to": "Field Report",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Field Results",
+   "link_to": "Field Result",
+   "type": "DocType"
+  }
+ ],
+ "title": "Academic Supervisor"
+}

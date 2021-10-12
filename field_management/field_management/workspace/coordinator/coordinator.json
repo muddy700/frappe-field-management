@@ -1,0 +1,94 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Coordinator Modules\",\"level\":2,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Field Posts\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Logbooks\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Field Results\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Change Staff Role\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Arrival Notes\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Assign Academic Supervisor\",\"col\":4}}]",
+ "creation": "2021-10-07 01:22:29.418438",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "sort",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 0,
+ "label": "Coordinator",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Field",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Field Posts",
+   "link_count": 0,
+   "link_to": "Field Post",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-10-11 17:12:38.325457",
+ "modified_by": "Administrator",
+ "module": "Field Management",
+ "name": "Coordinator",
+ "owner": "Administrator",
+ "parent_page": "",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "public": 1,
+ "roles": [],
+ "sequence_id": 12,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Change Staff Role",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Field Posts",
+   "link_to": "Field Post",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Assign Academic Supervisor",
+   "link_to": "Student Profile",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Arrival Notes",
+   "link_to": "Arrival Note",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Logbooks",
+   "link_to": "Logbook",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Field Results",
+   "link_to": "Field Result",
+   "type": "DocType"
+  }
+ ],
+ "title": "Coordinator"
+}
